@@ -1,0 +1,97 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/sad.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e3cce7;
+}
+
+button {
+    background: transparent;
+    padding: 0;
+    border: none;
+}
+.wrapper {
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px rgba(255, 255, 255, .5);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    position: relative;
+}
+.title {
+    text-align: center;
+    color: rgb(215, 142, 215);
+    font-weight: 700;
+    padding: 5px;
+    border: 1px white solid;
+    background: rgba(128, 0, 128, 0.489);
+    backdrop-filter: blur(20px);
+}
+
+.title span {
+    color: rgb(213, 213, 115);
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-weight: 700;
+    font-size: 60px;
+}
+.timer__buttons {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 1px rgba(255, 255, 255, 0.5) solid;
+    border-radius: 20px;
+    padding: 10px 0;
+    background: rgba(62, 29, 65, 0.625);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.start {
+    color: rgb(65, 126, 65);
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.5s ease;
+}
+.reload {
+    cursor: pointer;
+    color: rgb(148, 148, 83);
+    font-size: 25px;
+    transition: 0.5s ease;
+}
+.stop {
+    cursor: pointer;
+    color: rgb(104, 17, 17);
+    font-size: 25px;
+    transition: 0.5s ease;
+}
+
+.start:hover {
+    transform: scale(1.1);
+}
+
+.stop:hover {
+    transform: scale(1.1);
+}
+
+.reload:hover {
+    transform: scale(1.1);
+}
